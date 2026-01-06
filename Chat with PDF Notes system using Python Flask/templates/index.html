@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chat with PDF</title>
+</head>
+<body style="font-family: Arial; padding: 30px;">
+
+<h2>📄 Upload PDF</h2>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="pdf" required>
+    <button type="submit">Upload</button>
+</form>
+
+<hr>
+
+<h2>🤖 Ask Question</h2>
+<form method="POST">
+    <input type="text" name="question" placeholder="Enter your question" style="width:300px" required>
+    <button type="submit">Ask</button>
+</form>
+
+<hr>
+
+<h3>Answer:</h3>
+<p>{{ answer }}</p>
+
+</body>
+</html>
