@@ -1,4 +1,6 @@
 Flask==2.3.3
-PyMuPDF==1.23.7
-request
-gunicorn
+PyMuPDF==1.22.5
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
