@@ -1,6 +1,6 @@
 Flask==2.3.3
 gunicorn
-PyMuPDF==1.23.7
+Pymupdf>=1.23.8
 langchain
 langchain-community
 faiss-cpu
